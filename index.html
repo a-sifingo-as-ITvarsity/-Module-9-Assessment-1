@@ -7,7 +7,13 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <video autoplay muted loop id="myVideo">
+            <source src="background_video.mov" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
+        
         <div class="container">
+
             <svg id="progressBarContainer" width="144" height="300">
                 <defs>
                     <pattern id="pattern1" x="0" y="0" width="12" height="12" patternUnits="userSpaceOnUse">
@@ -19,7 +25,7 @@
             </svg>
             
             <div id="clock">
-                <p>Ready!</p>
+                <p>00:00:00</p>
             </div>
             
             <div id="content">
